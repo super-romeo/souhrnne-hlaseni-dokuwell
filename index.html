@@ -15,6 +15,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <meta name="description" content="Pro plátce DPH, kteří prodávají do jiných zemí EU: služba z vydaných faktur sestaví souhrnné hlášení, ověří DIČ odběratelů ve VIES a připomene termín.">
 <link rel="icon" href="favicon.svg">
 <link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="variant.css">
 <script src="smoke.js" defer></script>
 <!-- faq-jsonld:start -->
 <script type="application/ld+json">
@@ -73,38 +77,68 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
 
-<header><div class="wrap">
-  <div class="logo"><a href="index.html" data-ev="click_logo_home">Hlášení EU</a></div>
-  <nav class="top"><a href="#co" data-ev="click_nav_co">Co dostanete</a><a href="price.html" data-ev="click_nav_cena">Cena</a><a href="#priklad" data-ev="click_nav_priklad">Příklad</a><a href="#start" data-ev="click_nav_start">Začít</a></nav>
+<header><div class="shell">
+  <a class="home" href="index.html" data-ev="click_logo_home">Hlášení EU</a>
+  <nav><a href="#co" data-ev="click_nav_co">Co dostanete</a><a href="price.html" data-ev="click_nav_cena">Cena</a><a href="#priklad" data-ev="click_nav_priklad">Příklad</a><a href="#start" data-ev="click_nav_start">Začít</a></nav>
 </div></header>
 
-<div class="wrap">
-  <div class="hero">
-    <h1>Souhrnné hlášení k DPH — z faktur do EU, s ověřením DIČ odběratelů</h1>
-    <p class="sub">Pro plátce DPH s dodávkami zboží nebo služeb do jiných zemí EU: nahrajete faktury za měsíc, služba ověří DIČ odběratelů v systému VIES, sečte plnění podle odběratelů a kódů a připraví souhrnné hlášení k podání.</p>
-    <a class="cta" href="price.html" data-ev="cta_click">To potřebuji</a>
-    <p class="cta-note">Předběžný přístup · Na této stránce zatím nepřijímáme platby</p>
-  </div>
+<main class="shell">
+  <section class="split">
+    <div class="stack">
+      <p class="meta rise"><span class="dot"></span> Pro plátce DPH s dodávkami zboží</p>
+      <h1 class="rise" style="--i:1">Souhrnné hlášení k DPH&nbsp;<span class="soft">— z faktur do EU, s ověřením DIČ odběratelů</span></h1>
+      <p class="rise" style="--i:2">Pro plátce DPH s dodávkami zboží nebo služeb do jiných zemí EU: nahrajete faktury za měsíc, služba ověří DIČ odběratelů v systému VIES, sečte plnění podle odběratelů a kódů a připraví souhrnné hlášení k podání.</p>
+      <a class="button rise" style="--i:3" href="price.html" data-ev="cta_click">To potřebuji</a>
+      <p class="meta rise" style="--i:4">Předběžný přístup · Na této stránce zatím nepřijímáme platby</p>
+    </div>
+    <figure class="window rise" style="--i:2"><svg aria-hidden="true" focusable="false" class="shot" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800"><rect width="1200" height="800" fill="#eef2f7" /><rect x="80" y="80" width="1040" height="640" rx="24" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="130" y="165" font-size="40" fill="#0a1524" font-weight="600">Souhrnné hlášení</text><line x1="120" y1="210" x2="1080" y2="210" fill="none" stroke="#dde2ea" stroke-width="3" /><rect x="130" y="250" width="44" height="44" rx="8" fill="#12397a" /><text x="200" y="282" font-size="32" fill="#0a1524">Faktury do EU</text><rect x="130" y="350" width="44" height="44" rx="8" fill="#dfe8f7" /><text x="200" y="382" font-size="32" fill="#0a1524">Ověření DIČ</text><rect x="130" y="450" width="44" height="44" rx="8" fill="#dfe8f7" /><rect x="200" y="460" width="220" height="24" rx="12" fill="#dde2ea" /><rect x="130" y="550" width="44" height="44" rx="8" fill="#dfe8f7" /><rect x="200" y="560" width="300" height="24" rx="12" fill="#dde2ea" /><rect x="700" y="250" width="370" height="420" rx="20" fill="#dfe8f7" /><text x="730" y="320" font-size="34" fill="#0a1524" font-weight="600">VIES</text><rect x="740" y="500" width="50" height="120" rx="8" fill="#ffffff" /><rect x="820" y="420" width="50" height="200" rx="8" fill="#12397a" /><rect x="900" y="460" width="50" height="160" rx="8" fill="#ffffff" /><rect x="980" y="530" width="50" height="90" rx="8" fill="#b9c3d2" /></svg></figure>
+    <dl class="facts">
+      <div><dt>Pro</dt><dd>Plátce DPH</dd></div>
+      <div><dt>Služba</dt><dd>Ověří DIČ odběratelů</dd></div>
+      <div><dt>Nahrajete</dt><dd>Faktury za měsíc</dd></div>
+      <div><dt>Přístup</dt><dd>Předběžný přístup</dd></div>
+    </dl>
+  </section>
 
   <section id="co" data-view="features_view">
-    <h2>Co dostanete</h2>
-    <div class="grid">
-      <div class="card"><b>Faktury do EU</b><span>Nahrajete vydané faktury za měsíc nebo čtvrtletí.</span><br><a class="btn" href="price.html" data-ev="feature_faktury">To potřebuji</a></div>
-      <div class="card"><b>Ověření DIČ</b><span>Kontrola odběratelů v systému VIES.</span><br><a class="btn" href="price.html" data-ev="feature_vies">To potřebuji</a></div>
-      <div class="card"><b>Souhrnné hlášení</b><span>Součty podle odběratele a kódu plnění, soubor k podání.</span><br><a class="btn" href="price.html" data-ev="feature_hlaseni">To potřebuji</a></div>
-      <div class="card"><b>Termín</b><span>Připomenutí před 25. dnem následujícího měsíce.</span><br><a class="btn" href="price.html" data-ev="feature_termin">To potřebuji</a></div>
+    <div class="stack"><h2>Co dostanete</h2></div>
+    <div class="bento">
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="80" y="70" width="640" height="460" rx="22" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="120" y="145" font-size="36" fill="#0a1524" font-weight="600">Faktury do EU</text><rect x="120" y="190" width="44" height="44" rx="8" fill="#dfe8f7" /><rect x="184" y="200" width="280" height="24" rx="12" fill="#b9c3d2" /><polyline points="128,212 138,224 156,202" fill="none" stroke="#12397a" stroke-width="4" /><rect x="120" y="265" width="44" height="44" rx="8" fill="#dfe8f7" /><rect x="184" y="275" width="360" height="24" rx="12" fill="#b9c3d2" /><rect x="120" y="340" width="44" height="44" rx="8" fill="#dfe8f7" /><rect x="184" y="350" width="220" height="24" rx="12" fill="#b9c3d2" /><polyline points="128,362 138,374 156,352" fill="none" stroke="#12397a" stroke-width="4" /><rect x="120" y="415" width="44" height="44" rx="8" fill="#dfe8f7" /><rect x="184" y="425" width="320" height="24" rx="12" fill="#b9c3d2" /></svg></div>
+        <h3>Faktury do EU</h3><p>Nahrajete vydané faktury za měsíc nebo čtvrtletí.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_faktury">To potřebuji</a>
+      </article>
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="80" y="70" width="640" height="460" rx="22" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="120" y="145" font-size="36" fill="#0a1524" font-weight="600">Ověření DIČ</text><rect x="120" y="190" width="300" height="28" rx="8" fill="#dde2ea" /><rect x="120" y="248" width="420" height="28" rx="8" fill="#b9c3d2" /><rect x="120" y="306" width="240" height="28" rx="8" fill="#dde2ea" /><rect x="120" y="364" width="360" height="28" rx="8" fill="#b9c3d2" /><circle cx="560" cy="430" r="58" fill="#dfe8f7" /><polyline points="532,430 552,452 592,404" fill="none" stroke="#12397a" stroke-width="6" /></svg></div>
+        <h3>Ověření DIČ</h3><p>Kontrola odběratelů v systému VIES.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_vies">To potřebuji</a>
+      </article>
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="80" y="70" width="640" height="460" rx="22" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="120" y="145" font-size="36" fill="#0a1524" font-weight="600">Souhrnné hlášení</text><line x1="120" y1="490" x2="680" y2="490" fill="none" stroke="#dde2ea" stroke-width="4" /><rect x="150" y="270" width="70" height="220" rx="8" fill="#b9c3d2" /><rect x="280" y="350" width="70" height="140" rx="8" fill="#dde2ea" /><rect x="410" y="230" width="70" height="260" rx="8" fill="#12397a" /><rect x="540" y="390" width="70" height="100" rx="8" fill="#dfe8f7" /></svg></div>
+        <h3>Souhrnné hlášení</h3><p>Součty podle odběratele a kódu plnění, soubor k podání.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_hlaseni">To potřebuji</a>
+      </article>
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="80" y="70" width="640" height="460" rx="22" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="120" y="145" font-size="36" fill="#0a1524" font-weight="600">Termín</text><rect x="120" y="190" width="120" height="70" rx="10" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><rect x="265" y="190" width="120" height="70" rx="10" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><rect x="410" y="190" width="120" height="70" rx="10" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><rect x="555" y="190" width="120" height="70" rx="10" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><rect x="120" y="290" width="120" height="70" rx="10" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><rect x="265" y="290" width="120" height="70" rx="10" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><rect x="410" y="290" width="120" height="70" rx="10" fill="#12397a" stroke="#dde2ea" stroke-width="3" /><rect x="555" y="290" width="120" height="70" rx="10" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><rect x="120" y="390" width="120" height="70" rx="10" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><rect x="265" y="390" width="120" height="70" rx="10" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><rect x="410" y="390" width="120" height="70" rx="10" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><rect x="555" y="390" width="120" height="70" rx="10" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /></svg></div>
+        <h3>Termín</h3><p>Připomenutí před 25. dnem následujícího měsíce.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_termin">To potřebuji</a>
+      </article>
     </div>
   </section>
 
-  <section id="priklad" data-view="example_view">
-    <h2>Příklad (fiktivní údaje)</h2>
-    <p class="fine">Malý e-shop s keramikou z Olomouce posílá zboží firmám na Slovensko, do Rakouska a Německa — kolem třiceti faktur měsíčně. Dřív souhrnné hlášení sestavovala účetní ručně z exportu faktur a účtovala ho zvlášť. Teď majitelka nahraje faktury za měsíc, služba upozorní na jedno DIČ, které ve VIES neplatí, sečte plnění podle odběratelů a připraví soubor k podání přes daňovou portál.</p>
-    <a class="cta" href="price.html" data-ev="click_cta_after_example">Vyberte tarif</a>
+  <section id="priklad" data-view="example_view" class="split flip">
+    <div class="stack">
+      <h2>Příklad</h2>
+      <p>Malý e-shop s keramikou z Olomouce posílá zboží firmám na Slovensko, do Rakouska a Německa — kolem třiceti faktur měsíčně. Dřív souhrnné hlášení sestavovala účetní ručně z exportu faktur a účtovala ho zvlášť. Teď majitelka nahraje faktury za měsíc, služba upozorní na jedno DIČ, které ve VIES neplatí, sečte plnění podle odběratelů a připraví soubor k podání přes daňovou portál.</p>
+    <a class="button" href="price.html" data-ev="click_cta_after_example">Vyberte tarif</a>
+    </div>
+<svg aria-hidden="true" focusable="false" class="shot reveal" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800"><rect width="1200" height="800" fill="#eef2f7" /><line x1="240" y1="150" x2="960" y2="150" fill="none" stroke="#dde2ea" stroke-width="6" /><circle cx="240" cy="150" r="20" fill="#ffffff" stroke="#12397a" stroke-width="6" /><text x="240" y="230" font-size="32" fill="#0a1524" font-weight="600" text-anchor="middle">e-shop</text><circle cx="600" cy="150" r="20" fill="#ffffff" stroke="#12397a" stroke-width="6" /><text x="600" y="230" font-size="32" fill="#0a1524" font-weight="600" text-anchor="middle">faktury za měsíc</text><circle cx="960" cy="150" r="20" fill="#12397a" stroke="#12397a" stroke-width="6" /><text x="960" y="230" font-size="32" fill="#0a1524" font-weight="600" text-anchor="middle">podání</text><rect x="120" y="300" width="960" height="420" rx="24" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="170" y="380" font-size="36" fill="#0a1524" font-weight="600">soubor k podání</text><rect x="170" y="440" width="64" height="64" rx="10" fill="#dfe8f7" /><rect x="270" y="440" width="64" height="64" rx="10" fill="#dfe8f7" /><rect x="370" y="440" width="64" height="64" rx="10" fill="#12397a" /><rect x="470" y="440" width="64" height="64" rx="10" fill="#dfe8f7" /><rect x="570" y="440" width="64" height="64" rx="10" fill="#dfe8f7" /><text x="170" y="620" font-size="32" fill="#566174">daňový portál</text></svg>
   </section>
 <!-- seo-tekst:start -->
-  <section id="opis">
-    <h2>Jak to funguje</h2>
-    <p>Plátce DPH, který dodává zboží nebo poskytuje služby firmám v jiných státech EU, musí za každý měsíc, kdy taková plnění měl, podat souhrnné hlášení. V něm uvádí DIČ každého odběratele, kód plnění a celkovou hodnotu za období. Termín je do 25. dne následujícího měsíce a hlášení se podává elektronicky.</p>
+  <section id="opis" class="split flip">
+    <div class="stack"><h2>Jak to funguje</h2></div>
+    <div class="stack">
+      <p>Plátce DPH, který dodává zboží nebo poskytuje služby firmám v jiných státech EU, musí za každý měsíc, kdy taková plnění měl, podat souhrnné hlášení. V něm uvádí DIČ každého odběratele, kód plnění a celkovou hodnotu za období. Termín je do 25. dne následujícího měsíce a hlášení se podává elektronicky.</p>
     <p>V malé firmě hlášení obvykle sestavuje účetní z vydaných faktur a účtuje ho jako samostatnou položku. Odpovědi na časté otázky najdete v sekci <a href="#faq" data-ev="click_opis_faq">otázek a odpovědí</a> a zájem můžete dát najevo <a href="#start" data-ev="click_opis_start">dole na stránce</a>.</p>
     <p>Služba pracuje přímo s vašimi fakturami. Nahrajete vydané faktury za měsíc jako soubory nebo export z fakturačního programu a služba z nich vybere ty, které jdou odběratelům s DIČ v jiném státě EU.</p>
     <p>U každého odběratele se DIČ ověří v systému VIES. Když DIČ neplatí, je napsané s chybou nebo patří jiné firmě, uvidíte to před podáním — ne až po výzvě finančního úřadu. Výsledek ověření se uloží k faktuře.</p>
@@ -118,31 +152,34 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <p>Pokud máte účetní nebo daňového poradce, můžete mu hlášení i výsledky ověření DIČ jednoduše předat. Služba nenahrazuje účetnictví ani přiznání k DPH, řeší jen tuto jednu povinnost k dodáním do EU.</p>
     <p>Pro začátek stačí nahrát faktury za jeden měsíc.</p>
     <p>Služba sestavuje hlášení; odpovědnost za jeho podání a správnost údajů zůstává na plátci DPH.</p>
+    </div>
   </section>
   <section id="faq">
-    <h2>Časté dotazy</h2>
-    <h3>Co služba sestaví?</h3>
-    <p>Souhrnné hlášení k DPH z vašich vydaných faktur odběratelům v jiných státech EU, se součty podle odběratele a kódu plnění.</p>
-    <h3>Ověřuje služba DIČ odběratelů?</h3>
-    <p>Ano, každé DIČ se ověří v systému VIES a neplatná čísla uvidíte před podáním.</p>
-    <h3>Podává služba hlášení za mě?</h3>
-    <p>Ne. Služba připraví soubor; podáte ho sami přes daňový portál nebo datovou schránku.</p>
-    <h3>Do kdy se souhrnné hlášení podává?</h3>
-    <p>Do 25. dne měsíce následujícího po období. Služba připomene termín předem.</p>
-    <h3>Mohu službu používat už teď?</h3>
-    <p>Zatím ne. Služba se připravuje a ověřujeme, zda ji plátci DPH potřebují.</p>
+    <div class="stack"><h2>Časté dotazy</h2></div>
+    <div class="rows">
+      <div class="split flip"><h3>Co služba sestaví?</h3><p>Souhrnné hlášení k DPH z vašich vydaných faktur odběratelům v jiných státech EU, se součty podle odběratele a kódu plnění.</p></div>
+      <div class="split flip"><h3>Ověřuje služba DIČ odběratelů?</h3><p>Ano, každé DIČ se ověří v systému VIES a neplatná čísla uvidíte před podáním.</p></div>
+      <div class="split flip"><h3>Podává služba hlášení za mě?</h3><p>Ne. Služba připraví soubor; podáte ho sami přes daňový portál nebo datovou schránku.</p></div>
+      <div class="split flip"><h3>Do kdy se souhrnné hlášení podává?</h3><p>Do 25. dne měsíce následujícího po období. Služba připomene termín předem.</p></div>
+      <div class="split flip"><h3>Mohu službu používat už teď?</h3><p>Zatím ne. Služba se připravuje a ověřujeme, zda ji plátci DPH potřebují.</p></div>
+    </div>
   </section>
 <!-- seo-tekst:end -->
-  <section id="start" data-view="start_view">
-    <h2>Dejte nám vědět</h2>
-    <p><label>Kolik faktur do EU měsíčně vystavujete<br><select data-ev-focus="form_start" style="margin-top:6px;padding:8px;font-size:16px"><option value="">— vyberte —</option><option>Do 5</option><option>5–20</option><option>20–50</option><option>Více než 50</option></select></label></p>
-    <a class="cta" href="price.html" data-ev="form_submit_click">Začít</a>
+  <section id="start" data-view="start_view" class="split">
+    <div class="stack">
+      <h2>Dejte nám vědět</h2>
+    </div>
+    <div class="tile stack">
+      <label>Kolik faktur do EU měsíčně vystavujete<select data-ev-focus="form_start"><option value="">— vyberte —</option><option>Do 5</option><option>5–20</option><option>20–50</option><option>Více než 50</option></select></label>
+      <a class="button" href="price.html" data-ev="form_submit_click">Začít</a>
+    </div>
   </section>
-</div>
+</main>
 
-<footer><div class="wrap">
+<footer><div class="shell">
+  <p><b>Hlášení EU</b></p>
   <p><a href="ochrana-udaju.html" data-ev="click_legal_privacy">Ochrana osobních údajů</a></p>
-  <p class="muted">Služba sestavuje souhrnné hlášení; odpovědnost za podání a správnost údajů zůstává na plátci DPH.</p>
+  <p>Služba sestavuje souhrnné hlášení; odpovědnost za podání a správnost údajů zůstává na plátci DPH.</p>
 </div></footer>
 
 </body>
